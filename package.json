@@ -1,0 +1,41 @@
+{
+  "name": "backend2",
+  "version": "1.0.0",
+  "description": "Proyecto para Backend 2, comisión: 96760",
+  "homepage": "https://github.com/89pabloalvarez/programacion-backend-2-96760#readme",
+  "bugs": {
+    "url": "https://github.com/89pabloalvarez/programacion-backend-2-96760/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/89pabloalvarez/programacion-backend-2-96760.git"
+  },
+  "license": "ISC",
+  "author": "Pablo Alvarez",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "watch": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-redis": "^8.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "redis": "^4.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
